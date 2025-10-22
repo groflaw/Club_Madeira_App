@@ -54,6 +54,30 @@ The app requires **Screen Recording** permission from macOS to:
 
 **Important**: The app only captures screen content temporarily for QR code detection. No screen content is stored, transmitted, or saved.
 
+### Screen Recording Data Collection Details
+
+**What We Collect:**
+- Temporary screenshots of your display (only when QR scanner is active)
+- QR code content/payload extracted from detected codes
+- Screen coordinates of detected QR codes (for highlighting)
+
+**How We Use This Data:**
+- Process screenshots locally using Apple's Vision framework to detect QR codes
+- Extract URLs or text content from QR codes
+- Display visual highlights over detected QR codes
+- Verify partner website URLs before opening
+
+**Data Processing:**
+- All screen recording data is processed locally on your device
+- Screenshots are immediately discarded after QR code detection
+- No screen content is transmitted to external servers
+- Processing occurs only when you actively use the QR scanning feature
+
+**Data Retention:**
+- Screenshots: Not retained (processed and discarded immediately)
+- QR code content: Stored temporarily in app memory during active scanning
+- QR code locations: Used only for visual highlighting, not stored permanently
+
 ## International Transfers
 
 No personal data is collected or transferred internationally. All processing happens locally on your device.
@@ -82,6 +106,8 @@ This app is designed to provide secure access to Club Madeira partner websites. 
 - **QR Code Data**: Processed temporarily and immediately discarded
 - **Verified URLs**: Stored locally on your device until you delete the app
 - **Screen Content**: Not stored or retained
+- **Screenshots**: Not retained (processed and discarded immediately)
+- **QR Code Locations**: Used only for visual highlighting, not stored permanently
 
 ## Third-Party Services
 
